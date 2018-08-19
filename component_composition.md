@@ -50,47 +50,47 @@ ReactDOM.render(
 Comparse that to just defining all the UI in one Functional Component
 ```jsx
 
-    function ShoppingApp(props){
-        return (
+function ShoppingApp(props){
+    return (
+        <div>
             <div>
-                <div>
-                    <h1>My Shopping List</h1>
-                    <h2>Total Number of Items: 9</h2>
-                </div>
-                <div>
-                    <h3>Food</h3>
-                    <ol>
-                        <li>Apple</li>
-                        <li>Bread</li>
-                        <li>Cheese</li>
-                    </ol>
-                </div>
-
-                <div>
-                    <h3>Clothes</h3>
-                    <ol>
-                        <li>Shirt</li>
-                        <li>Pants</li>
-                        <li>Hat</li>
-                    </ol>
-                </div>
-
-                <div>
-                    <h3>Supplies</h3>
-                    <ol>
-                        <li>Pen</li>
-                        <li>Paper</li>
-                        <li>Glue</li>
-                    </ol>
-                </div>
-
-
+                <h1>My Shopping List</h1>
+                <h2>Total Number of Items: 9</h2>
             </div>
-        )
-    }
+            <div>
+                <h3>Food</h3>
+                <ol>
+                    <li>Apple</li>
+                    <li>Bread</li>
+                    <li>Cheese</li>
+                </ol>
+            </div>
 
-    ReactDOM.render(
-        <ShoppingApp/>,
-        document.getElementById("root")
+            <div>
+                <h3>Clothes</h3>
+                <ol>
+                    <li>Shirt</li>
+                    <li>Pants</li>
+                    <li>Hat</li>
+                </ol>
+            </div>
+
+            <div>
+                <h3>Supplies</h3>
+                <ol>
+                    <li>Pen</li>
+                    <li>Paper</li>
+                    <li>Glue</li>
+                </ol>
+            </div>
+
+
+        </div>
     )
+}
+
+ReactDOM.render(
+    <ShoppingApp/>,
+    document.getElementById("root")
+)
 ```
