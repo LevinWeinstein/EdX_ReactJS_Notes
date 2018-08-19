@@ -26,7 +26,7 @@ Once a DOM is rendered, it will remain the same until another render() method is
 
 The following example uses additional render() calls to update the displayed number:
 
-```javascript
+```jsx
 var num = 0;
 
 function updateNum(){
