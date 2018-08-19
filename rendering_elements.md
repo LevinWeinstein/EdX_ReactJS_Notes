@@ -16,7 +16,7 @@ In this case, the `<h1>Hello World!</h1>` React Element is rendered into the DOM
 ```
 ```jsx
 ReactDOM.render(
-        <h1>Hello World!</h1>
+        <h1>Hello World!</h1>,
         document.getElementById("root")
     )
 ```
@@ -32,7 +32,7 @@ var num = 0;
 function updateNum(){
 
     ReactDOM.render(
-        <div>{num++}</div>
+        <div>{num++}</div>,
         document.getElementById("root")
     )
 }
