@@ -14,7 +14,7 @@
 ## How hard is it to use ReactJS?
 * ReactJS is a relatively lightweight library and it does not take a whole lot of code to get started with it.
 
-* Here is an ecample of the code needed for a Hello World application:
+* Here is an example of the code needed for a Hello World application:
 ```html
 <div id="root"></div>
 ```
