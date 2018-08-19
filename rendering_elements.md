@@ -14,7 +14,7 @@ In this case, the `<h1>Hello World!</h1>` React Element is rendered into the DOM
 ```html
 <div id="root"></div>
 ```
-```javascript
+```jsx
 ReactDOM.render(
         <h1>Hello World!</h1>
         document.getElementById("root")
