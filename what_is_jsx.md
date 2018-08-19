@@ -17,7 +17,8 @@ var element = React.createElement(
     )
 ```
 
-##Using JSX with Javascript Expressions
+## Using JSX with Javascript Expressions
+
 Curly braces can be used to embed JavaScript expressions into JSX.
 
 The following are all examples of valid JavaScript expressions in JSX:
