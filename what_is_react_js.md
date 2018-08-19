@@ -22,6 +22,6 @@
 ```javascript
 ReactDOM.render(
     <h1>Hello World!</h1>,
-    document.getElemenetById("root")
+    document.getElementById("root")
     )
 ```
