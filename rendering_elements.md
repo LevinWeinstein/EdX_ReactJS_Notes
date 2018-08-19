@@ -2,7 +2,7 @@
 
 ## React Elements
 React Elements are objects that represent a DOM node. They are written using a syntax extension named JSX which we will cover later in this module. React Elements are different than React components, which we will also cover later in this module.
-```javascript
+```jsx
 var element = <h1>Hello World!</h1>
 ```
 React Elements need to be rendered by the ReactDOM.render() method to appear in the dom.
