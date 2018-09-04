@@ -101,7 +101,7 @@ class Counter extends React.Component{
     }
     componentDidMount(){
         this.setState((prevState, props) => {
-            return {messahg: prevState.message + '!'}
+            return {message: prevState.message + '!'}
         })
     }
     render(){
